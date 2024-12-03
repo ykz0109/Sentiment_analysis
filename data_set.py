@@ -29,8 +29,8 @@ def save_data(datax,path):
             f.write('\n')
  
 if __name__ == '__main__':
-    train_x, train_y = load_tsv(r'data\waimai.tsv')
-    test_x, test_y = load_tsv(r'data\test.tsv')
+    train_x, train_y = load_tsv(r'train.tsv')
+    test_x, test_y = load_tsv(r'test.tsv')
     train_x = [list(jieba.cut(x)) for x in train_x]
     test_x = [list(jieba.cut(x)) for x in test_x]
     train_x=drop_stopword(train_x)
