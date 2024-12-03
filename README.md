@@ -23,6 +23,7 @@ project_root/
 ├── dataset.py
 ├── main.py
 └── test.py
+<img width="453" alt="image" src="https://github.com/user-attachments/assets/630aeb50-17d4-4110-91fb-9a04dbd9ae2e">
 
 运行说明：
 ① 首先，通过（data_set.py）文件，对训练集、测试集数据进行预处理，基于LSTM的文本情感分析项目的数据预处理阶段，包括数据读取、停用词过滤、分词以及数据保存等步骤。
