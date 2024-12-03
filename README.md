@@ -11,18 +11,31 @@ Python 3.9.18(‘pytorch’)
 技术架构：
 
 project_root/
+
 │
+
 ├── data/
+
 │   ├── train.tsv
+
 │   ├── test.tsv
+
 │   └── train.txt
+
 │   └── test.txt
+
 │
+
 ├── models/
+
 │   └── model.pth
+
 │
+
 ├── dataset.py
+
 ├── main.py
+
 └── test.py
 
 
