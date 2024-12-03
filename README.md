@@ -9,6 +9,7 @@ pip install pandas torch jieba gensim numpy
 Python 3.9.18(‘pytorch’)
 
 技术架构：
+
 project_root/
 │
 ├── data/
@@ -23,6 +24,8 @@ project_root/
 ├── dataset.py
 ├── main.py
 └── test.py
+
+
 <img width="453" alt="image" src="https://github.com/user-attachments/assets/630aeb50-17d4-4110-91fb-9a04dbd9ae2e">
 
 运行说明：
