@@ -19,8 +19,8 @@ test_x=load_txt('test.txt')
 train=train_x+test_x
 X_all=[i for x in train for i in x]
  
-_, train_y = load_tsv("data\waimai.tsv")
-_, test_y = load_tsv("./data/test.tsv")
+_, train_y = load_tsv("./train.tsv")
+_, test_y = load_tsv("./test.tsv")
 # 训练Word2Vec模型
 word2vec_model = Word2Vec(sentences=X_all, vector_size=100, window=5, min_count=1, workers=4)
  
